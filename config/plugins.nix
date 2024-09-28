@@ -25,6 +25,10 @@
 				options.desc = "Find Files (root dir)";
 				action = "find_files";
 			};
+			"<space>/" = {
+				options.desc = "Grep Files (root dir)";
+				action "live_grep";
+			};
 		};
 	};
 	plugins.cmp = {
