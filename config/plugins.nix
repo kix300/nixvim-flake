@@ -27,7 +27,7 @@
 			};
 			"<space>/" = {
 				options.desc = "Grep Files (root dir)";
-				action "live_grep";
+				action = "live_grep";
 			};
 		};
 	};
